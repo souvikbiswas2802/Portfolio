@@ -6,6 +6,17 @@
     { "src": "public/**", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
+    {
+      "src": "^/(.*\\.(?:css|js|map|png|jpg|jpeg|gif|svg|webp|ico|pdf))$",
+      "dest": "/$1"
+    },
+    {
+      "src": "^/public/(.*)$",
+      "dest": "/public/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
   ]
 }
