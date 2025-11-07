@@ -62,7 +62,7 @@ Portfolio/
 ├── style.css           # All styles and animations
 ├── script.js           # Interactivity, effects, and theme logic
 └── public/
-    ├── Profile Picture.jpg
+    ├── Profile_Picture.jpg
     └── Souvik_Biswas_CV.pdf
 ```
 
